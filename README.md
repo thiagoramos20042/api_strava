@@ -12,5 +12,7 @@ A OMS recomenda que adultos façam atividade física moderada de 150 a 300 minut
 
 # Objetivo do projeto
 1- Coletar os dados da API do strava com todo o histórico de treinos do usuário
+
 2- Realizar uma análise exploratória dos dados (EDA)
+
 3- Criar um modelo de machine learning capaz de prever a velocidade média do treino realizado
