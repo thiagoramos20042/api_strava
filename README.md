@@ -9,4 +9,8 @@ Fazer exercício físico de forma contínua e moderada pode trazer inúmeros ben
 
 A OMS recomenda que adultos façam atividade física moderada de 150 a 300 minutos ou de 75 a 150 minutos de atividade física intensa, quando não houver contraindicação.
 
-E você já faz alguma atividade física? deixe aqui nos comentários que atividade física você pratica.
+
+# Objetivo do projeto
+Coletar os dados da API do strava com todos o histórico de treinos do usuário
+Realizar uma análise exploratória dos dados (EDA)
+Criar um modelo de machine learning capaz de prever a velocidade média do treino realizado
