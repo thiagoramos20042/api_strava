@@ -1,18 +1,39 @@
-# Utilizando a análise de dados e machine learning para o esporte
+# Strava | Dados de treino e regressão
 
-# ![alt text](https://runnersworld.com.br/wp-content/uploads/sites/4/2019/01/como-se-manter-motivado.jpg)
+Integração com a API do Strava, análise de treinos e experimentos para prever velocidade média.
 
-# Introdução
-A atividade física está entre os hábitos mais recomendados para uma vida saudável. Devido a isso, a Organização Mundial da Saúde (OMS) passou a tratar o sedentarismo (que é a inatividade física) como um problema de saúde pública. A falta da prática de exercícios é um perigo crescente na sociedade, gerando maiores riscos à saúde e aumentando o índice de obesidade, doenças cardíacas, e a taxa de mortalidade.
+**Machine learning** · Notebook
 
-Fazer exercício físico de forma contínua e moderada pode trazer inúmeros benefícios. Entre eles, está controlar o peso, diminuir riscos de desenvolver doenças crônicas (como diabetes, hipertensão, depressão, doenças cardiovasculares) ou atenuar seus sintomas, gerar o fortalecimento muscular e aumentar a sensação de bem-estar. Assim você estará equilibrando sua saúde física e mental.
+[← Portfólio de Thiago Oliveira](https://github.com/thiagoramos20042/thiagoramos20042) · [Catálogo de projetos](https://github.com/thiagoramos20042/thiagoramos20042/blob/main/PROJETOS.md)
 
-A OMS recomenda que adultos façam atividade física moderada de 150 a 300 minutos ou de 75 a 150 minutos de atividade física intensa, quando não houver contraindicação.
+## Objetivo
 
+Conectar dados de atividades esportivas a um fluxo de exploração e modelagem de regressão.
 
-# Objetivo do projeto
-1- Coletar os dados da API do strava com todo o histórico de treinos do usuário
+## O que você encontra
 
-2- Realizar uma análise exploratória dos dados (EDA)
+- Coleta do histórico de atividades por API.
+- Exploração dos dados de treino.
+- Comparação, ajuste e análise de modelos de regressão com PyCaret.
 
-3- Criar um modelo de machine learning capaz de prever a velocidade média do treino realizado
+## Tecnologias
+
+Python · requests · pandas · NumPy · seaborn · PyCaret
+
+## Arquivos principais
+
+| Arquivo | Conteúdo |
+| --- | --- |
+| [EDA_STRAVA (1).ipynb](EDA_STRAVA%20%281%29.ipynb) | Coleta, análise exploratória e modelagem. |
+
+## Como explorar
+
+Abra [EDA_STRAVA (1).ipynb](EDA_STRAVA%20%281%29.ipynb) no visualizador do GitHub para acompanhar o código e as saídas salvas. Para explorar as células, use Jupyter ou a extensão de notebooks do VS Code. Antes de executar, confira os caminhos de entrada, as fontes externas e os imports nas primeiras células.
+
+## Contexto do projeto
+
+A coleta exige autenticação própria no Strava. O notebook usa chamadas e imports do ambiente original, que precisam ser compatibilizados antes de uma nova execução.
+
+---
+
+Integra o [portfólio de Thiago Oliveira](https://github.com/thiagoramos20042).
